@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.ac.telkomuniversity.student.kahfiahadian.studycase21202154215.identitaspembeli">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:text="IDENTITAS PEMBELI"
+        android:textSize="36dp" />
+
+    <EditText
+        android:id="@+id/editText_namasaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="masukan nama"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_catatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_alamat"
+        android:layout_alignStart="@+id/editText_alamat"
+        android:layout_below="@+id/editText_alamat"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:hint="catatan"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_telepon"
+        android:layout_alignStart="@+id/editText_telepon"
+        android:layout_below="@+id/editText_telepon"
+        android:layout_marginTop="62dp"
+        android:ems="10"
+        android:hint="masukan alamat"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_telepon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_namasaya"
+        android:layout_alignStart="@+id/editText_namasaya"
+        android:layout_below="@+id/editText_namasaya"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="masukan no. handphone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_catatan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:onClick="pilihmenu"
+        android:text="PILIH MENU" />
+</RelativeLayout>
